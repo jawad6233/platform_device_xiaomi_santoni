@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libgenlock \
     libdisplayconfig \
+    libhwc2on1adapter \
     libjni_livedisplay \
     libtinyxml
 
@@ -323,6 +324,13 @@ PRODUCT_PACKAGES += \
     init.baseband.sh \
     init.qcom.post_boot.sh
 
+# RCS
+PRODUCT_PACKAGES += \
+    rcs_service_aidl \
+    rcs_service_aidl.xml \
+    rcs_service_api \
+    rcs_service_api.xml
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
@@ -355,6 +363,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service
+
+#Treble OMX
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-impl
 
 # USB HAL
 PRODUCT_PACKAGES += \
