@@ -68,14 +68,12 @@ PRODUCT_COPY_FILES += \
     com.dsi.ant.antradio_library \
     libantradio
 
-<<<<<<< HEAD
 # AptX/AptX HD bluetooth codec
 APTX_HD := true
-=======
+
 # Offline Charger
 PRODUCT_PACKAGES += \
     charger_res_images
->>>>>>> 6753603... santoni:Fix offline charge images
 
 # Audio
 PRODUCT_PACKAGES += \
