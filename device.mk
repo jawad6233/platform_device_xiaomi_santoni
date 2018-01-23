@@ -68,6 +68,9 @@ PRODUCT_COPY_FILES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# AptX/AptX HD bluetooth codec
+APTX_HD := true
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
